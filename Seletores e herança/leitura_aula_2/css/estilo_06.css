@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+p{
+	font-family: arial, san-serif;
+	color:blue;
+	font-size: 14px;
+}
+
+span{
+	color:green;
+	font-style: italic;
+}

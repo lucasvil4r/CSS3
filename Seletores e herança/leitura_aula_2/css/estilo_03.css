@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+	background-color: #E2E2E2;
+}
+#logo{
+	width: 240px;
+	height: 70px;
+	margin: 33px;
+	background: url("../images/logo-impacta-header.png") no-repeat; 
+}
+
