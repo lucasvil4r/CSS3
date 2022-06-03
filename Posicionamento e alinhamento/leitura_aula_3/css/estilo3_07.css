@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+	margin: 0px;padding: 0px;
+}
+header{
+	margin-left: 100px;margin-top: 30px;
+}
+#logotipo{
+	width:160px;height: 34px;
+	position:relative;
+	float:left;
+	border: solid 1px #333;
+}
+#busca-topo{
+	width:500px;height: 24px;
+	position:relative;
+	float:right;
+}
+.busca{
+	width:418px;height: 24px;
+	border: solid 1px #333;
+}
+nav{
+	position:relative;
+	top: 20px;
+	font-family: arial, san-serif;
+	color:#333;
+	clear: both;
+}
+

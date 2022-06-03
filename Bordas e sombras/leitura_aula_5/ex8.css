@@ -1,0 +1,7 @@
+div{
+	border-image-slice: 10 30 10 30;
+	-ms-border-slice: 10 17 fill; /* A palavra-chave fill é utilizada para inserir na parte central o conteudo da imagem ao qual se aplicou a borda */
+	-moz-border-slice: 10% 10% 10% 10%;
+	-o-border-slice: 10 20% 20% 10;
+	-webkit-border-slice: 1 2 3 4;
+}

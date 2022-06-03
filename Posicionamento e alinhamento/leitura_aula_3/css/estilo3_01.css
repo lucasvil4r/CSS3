@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.bloco{
+	width:250px;
+	height: 450px;
+	border:solid 1px #333;
+	overflow: hidden;
+}
+

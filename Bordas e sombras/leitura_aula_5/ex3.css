@@ -1,0 +1,6 @@
+div{
+	border-style-top: solid; /* Propriedade que define o estilo da borda superior */
+	border-style-right: solid; /* Propriedade que define o estilo da borda do lado direito */
+	border-style-bottom: solid; /* Propriedade que define o estilo da borda inferior */
+	border-style-left: solid; /* Propriedade que define o estilo da borda do lado esquerdo */
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@media only screen and (max-width: 480px) {
+	@import url("smartphone.css");
+}
+
+@media only screen and (min-width: 481px) {
+	@import url("tablet.css");
+}
+
+@media only screen and (min-width: 1024px) {
+	@import url("desktop.css");
+}

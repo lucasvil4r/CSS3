@@ -1,0 +1,6 @@
+div{
+	border-style: solid none dashed solid; /* Top, right, bottom, left */
+	border-style: dashed solid dashed; /* top (right / left) bottom */
+	border-style: solid double; /* (top / bottom) (right / left) */
+	border-style: solid; /* (top / right / bottom / left) */
+}

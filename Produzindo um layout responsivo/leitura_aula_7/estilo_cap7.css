@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body,main{
+	margin: 0;
+	padding: 0;
+}
+
+@viewport {
+   width: device-width;
+   zoom: 1;
+}
+
+@media only screen and (min-width: 480px) { 
+
+	body{
+		background-image: 
+	}
+
+}
+
+
+@media only screen and (max-width: 990px) { 
+
+	body{
+		background-image: 
+	}
+
+}
+
+@media only screen and (max-width: 1200px) { 
+
+	body{
+		background-image: 
+	}
+}

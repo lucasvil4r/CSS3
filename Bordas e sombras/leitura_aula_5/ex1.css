@@ -1,0 +1,6 @@
+div{
+	border-width-top: 10px; /* Propriedade que define o tamanho da borda superior */
+	border-width-right: 8px; /* Propriedade que define o tamanho da borda do lado direito */
+	border-width-bottom: 6px; /* Propriedade que define o tamanho da borda inferior */
+	border-width-left: 4px; /* Propriedade que define o tamanho da borda do lado esquerdo */
+}

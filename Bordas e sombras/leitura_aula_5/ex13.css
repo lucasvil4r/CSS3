@@ -1,0 +1,7 @@
+div{
+	text-shadow: 10px 20px -15px #CCC;
+	-ms-text-shadow: 10px 20px 15px #CCC;
+	-moz-text-shadow: 10px 20px 15px #CCC;
+	-o-text-shadow: 10px 20px 15px #CCC;
+	-webkit-text-shadow: 10px 20px -15px  #CCC;
+}

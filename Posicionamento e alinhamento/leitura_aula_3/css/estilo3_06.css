@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+	margin: 0;padding: 0;color: #333;
+}
+header{
+	position:fixed;	font-family: arial;
+	top:0;height: 60px;	width: 100%;
+	background-color: #333;
+	color:#fff;float:left;
+}
+div{float:left;	font-size: 18px;
+	font-style: italic;	padding:10px;
+}	
+.busca{
+	position: relative;
+	width:600px;height: 20px;float: left;
+	top:10px;border: none;
+	border-radius: 10px;
+	background-color: #888;
+}
+.banner{
+	width:850px;height: 320px;
+	position:relative;left:100px;	top:100px;
+	border:solid 1px #eee;
+	border-radius: 10px;
+}
+.iphone{
+	width: 390px;height:200px;
+	background: url('../images/iphone.png') no-repeat;
+	position:absolute;right:0;bottom:0;
+}
+h1{
+	font-family: arial;font-style: normal;
+	position: relative;left:80px;top:50px;
+}
+.descricao{
+	width:200px;position: relative;
+	left:90px;top:30px;font-family: arial;
+	font-size: 20px;
+}

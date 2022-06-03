@@ -1,0 +1,6 @@
+div{
+	border-color-top: #CCC; /* Propriedade que define a cor da borda superior */
+	border-color-right: red; /* Propriedade que define a cor da borda do lado direito */
+	border-color-bottom: hsla(100,100,75%, 0.8); /* Propriedade que define a cor da borda inferior */
+	border-color-left: rgba(100,255,100,0.8); /* Propriedade que define a cor da borda do lado esquerdo */
+}

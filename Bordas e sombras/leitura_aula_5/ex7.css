@@ -1,0 +1,7 @@
+div{
+	border-image-source: url(imagem.png);
+	-ms-border-image-source: url(imagem.png);
+	-moz-border-image-source: url(imagem.png);
+	-o-border-image-source: url(imagem.png);
+	-webkit-border-image-source: url(imagem.png);
+}

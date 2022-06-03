@@ -1,0 +1,6 @@
+div{
+	border-color: red #CCC #CCC black; /* Top, right, bottom, left */
+	border-color: rgb(10,255,10) hsla(10,100%,75%,0.5) black; /* top (right / left) bottom */
+	border-color: black rgb(10,255,10); /* (top / bottom) (right / left) */
+	border-color: #CDC; /* (top / right / bottom / left) */
+}

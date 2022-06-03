@@ -1,0 +1,7 @@
+div{
+	border-image-outset: 10px 20px 30px 40px; /* Os valores podem ser em pixel */
+	-ms-border-image-outset: 3em 4em 5em; /* Os valores podem ser em medida CSS de comprimento */
+	-moz-border-image-outset: 10 20; /* Os valores podem ser em numeros */
+	-o-border-image-outset: 10px 10 10px 10; /* Os valores podem ser em pixel e numeros */
+	-webkit-border-image-outset: 10 20;
+}
