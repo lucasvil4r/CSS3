@@ -12,28 +12,50 @@ padding:10px 0 20px 10px;
 }
 section{
 background:#ccc;
-width:900px;
+width:80%;
 heigth:auto;
 margin:20px 40px;
 padding:30px;
-float:left;
 }
 article{
-width:800px;
+width:90%;
 height:auto;
 background-color:#fff;
 padding:10px;
+}
+#grupo-01{
+display:flex;
+flex-direction:row;
+height:450px;
 float:left;
+border:1px solid #000;
+align-items: center;
+/*flex-start | flex-end | center | baseline */
 }
-article img{
-width:350px;
-float:left;
-margin:0 10px 0 0;
+
+#grupo-01 div{
+width:200px;
+height:120px;
+background:orange;
+margin:8px;
 }
-.imagem{
-clear:left;
-float:right;
+
+div#grupo-01 div:nth-child(1) {
+	height: 50px;
 }
+
+div#grupo-01 div:nth-child(2) {
+	height: 180px;
+}
+
+div#grupo-01 div:nth-child(3) {
+	height: 150px;
+}
+
+div#grupo-01 div:nth-child(4) {
+	height: 250px;
+}
+
 </style>
 </head>
 <body>
@@ -42,11 +64,14 @@ float:right;
 	</header>
 	<section>
 		<article>
-			
 		<p>Conteúdo do primeiro parágrafo</p>
-		<img src="../imagens/0066_PAL_Photo.png" />
+		<div id="grupo-01">
+			<div><p>A</p></div>
+			<div>B</div>
+			<div>C</div>	
+			<div>D</div>	
+		</div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus quam, congue sit amet fringilla mollis, dignissim suscipit sem. Suspendisse potenti. Praesent faucibus nulla augue, id auctor mauris mattis id. Integer vestibulum molestie ultrices. Nam luctus libero ac ante finibus lacinia. In auctor risus lacus, aliquam vestibulum ex laoreet et. Maecenas dictum at augue et volutpat. Integer ipsum nulla, dignissim nec libero sit amet, volutpat bibendum sapien.</p>
-		<img src="../imagens/0073_PAL_Photo.png" width="100" class="imagem" />
 		</article>
 	</section>	
 		</body>
